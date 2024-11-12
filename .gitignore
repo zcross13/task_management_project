@@ -1,0 +1,51 @@
+# === Backend (Django) ===
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Django migrations
+*/migrations/*
+
+# Local development environment files
+*.sqlite3
+
+# Django specific logs
+*.log
+
+# IDE files (example for VS Code)
+.vscode/
+
+# === Frontend (Vite React) ===
+
+# Node modules
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+*.log
+
+# IDE files (example for VS Code)
+.vscode/
+
+# === System files ===
+
+# MacOS specific files
+.DS_Store
+
+# System files
+Thumbs.db
